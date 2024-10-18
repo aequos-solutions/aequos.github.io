@@ -10,6 +10,7 @@ Here are the list of all **reusable** web components you can use to customize yo
 - &lt;aequos-collapsible&gt;
 - &lt;aequos-persona&gt;
 - &lt;aequos-sortfield&gt;
+- &lt;aequos-export&gt;
 
 !!! info
     All other web components you will see in builtin layout templates are considered **internal** and are not supported for custom use.
@@ -331,3 +332,26 @@ Here are the list of all **reusable** web components you can use to customize yo
         'RecsClickedLifeTime',
         'RecsClickedRecent'.        
 
+## Export Results
+
+!!! example
+    === "Description"
+
+        Render an export dropdown to download the data results.
+        !["File icon component"](../assets/extensibility/web_components/export_component.png){: .center}
+
+    === "Usage"
+
+        ```html
+                    <aequos-export 
+                        data-columns-configuration="[{name: 'Title', value: 'Title', useHandlebarsExpr: true},{name: 'Created', value: 'Created', useHandlebarsExpr: true}]"
+                        data-data-source-key="SharePointSearch"
+                    >
+                    </aequos-export>        
+        
+        ```
+
+        | Parameter | Description |
+        | --------- | ----------- |
+        |**data-columns-configuration**|The array of Export fields.
+        |**data-data-source-key**| The data source key.
