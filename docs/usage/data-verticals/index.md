@@ -25,6 +25,8 @@ The options for a vertical are as follow:
 | **Link URL** | If the tab is an hyperlink, the link URL to use. Tokens `{<TokenName>}` are supported here. See [tokens](../data-visualizer/tokens.md) for more info.
 | **Open behavior** | If the tab is an hyperlink, the opening behavior (new tab or current tab).
 | **Show link icon** |  If the tab is an hyperlink, display or hide an icon next to the tab name indicating the tab is a link (same page or external).
+| **Enable Target Audience** | If checked, the tab will only be visible to targetted audience.
+| **Target Audience Group** | If target audience is enabled, this is a people picker field to add users and groups who will be able to see this tab.
 
 > The 'Data Verticals' Web Part does not need to be connected to any Web Part. However, it is meant to be used by a 'Data Visualizer' Web Part to get it work. More info about configuration [here](../data-visualizer/connections/index.md).
 
