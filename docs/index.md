@@ -58,6 +58,12 @@ By getting this solution, you also benefit from an advanced [extensibility model
 
 With these available customizations options, you can do pretty much anything!
 
+## Import Export Feature
+
+For all webparts, the information section has "Import/Export" feature. It allows the user to download the webpart properties, edit the same and upload them as well.
+
+!["Import Export Section"](./assets/importExport.png) 
+
 ## Troubleshooting
 
 To help us to resolve your issue, you can include screenshots or error messages coming from:

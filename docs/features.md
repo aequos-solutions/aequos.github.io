@@ -64,6 +64,12 @@ The [PnP Modern Search v4](https://microsoft-search.github.io/pnp-modern-search/
 | [Custom Handlebars customizations](../extensibility/handlebars_customizations/) | Developers can create custom helpers or partials for templates using Handlebars. | Yes | Yes |
 | Multiple extensibility libraries support | Developers can register one or more extensibility libraries per Web Part instances. | Yes | Yes |
 
+## Import Export Feature
+
+| Feature               | Description               | aequos Modern Data Visualizer     | PnP Modern Search     |
+| :-----------------:   | :---------------------:   | :-----------------------------:   | :-------------------: |
+| Import Export Feature | Allow the users to import and export the webpart properties. | Yes | Yes |
+
 ## Miscellaneous, support & price
 
 | Feature               | Description               | aequos Modern Data Visualizer     | PnP Modern Search     |
